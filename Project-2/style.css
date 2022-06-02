@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    background: rgb(38, 93, 132);
+}
+.wrapper{
+    height: 80%;
+    width: 50%;
+    background: #fff;
+    position: fixed;
+    right: 25%;
+    border-radius: 30px 10px;
+}
+.header{
+    height: 60px;
+    display: flex;
+    align-items:inherit;
+    padding: 20px;
+    background-color:rgb(187, 196, 235);
+    color: #fff
+}
+.header a{
+    padding-left: 50%;
+    color: #fff;
+}
+.chat-box{
+    height: 73%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.chat-input{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid;
+}
+.text-area{
+    width: 90%;
+    flex: 9;
+}
+.send{
+    flex:1 ;
+    display: inline-block;
+    bottom: 60px;
+    height: 20px;
+    width: 20px;
+}
+
+#textInput{
+    line-height: 25px;
+    width: 60%;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    font-size: medium;
+    caret-color: black;
+}
+#button{
+    flex:1 ;
+    display: inline-block;
+    right: 20px;
+    padding: 10px 10px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:rgb(187, 196, 235) ;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+#button:hover {background-color: rgb(107, 129, 225)}
+
+#button:active {
+  background-color:  rgb(107, 129, 225);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.user-message {
+    padding: 8px;
+    background: #ccc;
+    margin: 5px;
+    width: max-content;
+    border-radius: 10px 5px 10px 10px;
+}
